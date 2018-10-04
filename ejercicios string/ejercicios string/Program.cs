@@ -309,11 +309,11 @@ namespace ejercicios_string
             //Escribe un programa que muestre la fecha de hoy
 
            
-            Console.WriteLine("La fecha de hoy es " + DateTime.Now);
-
+            Console.WriteLine("La fecha de hoy es " + DateTime.Now);          
+            Console.WriteLine("La fecha de hoy es " + DateTime.Today.ToString("dd/mm/yyyy"));// con tostring cambia el 
+                                                                                           //formato al que pongamos
+            Console.WriteLine("La fecha de hoy es " + DateTime.Now.ToString("dd/mm/yyyy H:m"));//aqui poniendo horas
             Console.ReadLine();
-
-
 
 
 
